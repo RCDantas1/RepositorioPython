@@ -10,3 +10,11 @@ Saída:
 Imprima o número do funcionário e o salário calculado com duas casas decimais. 
 Deve haver um espaço em branco antes e depois do sinal de igualdade, 
 e no caso do salário, também um espaço em branco após o R$'''
+
+numero_funcionario = int(input("Digite o número do funcionário: "))
+horas_trabalhadas = int(input("Digite o número de horas cheias trabalhadas: "))
+valor_por_hora = float(input("Digite o valor por hora trabalhada: "))
+
+print(f"Nº do funcionário: {numero_funcionario}\nSalário devido: R$ {(horas_trabalhadas * valor_por_hora):.2f}")
+
+
